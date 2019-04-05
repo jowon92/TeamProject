@@ -1,0 +1,24 @@
+#pragma once
+#include <vector>
+#include "PlayerInfo.h"
+using namespace std;
+
+class Card
+{
+	char m_pattern[4] = { 'C', 'D', 'S', 'H' };					//Å¬·Î¹ö ´ÙÀÌ¾Æ ½ºÆäÀÌµå ÇÏÆ®
+	int m_cardNum;
+	PlayerInfo* _playerInfo;
+
+public:
+	Card()
+	{
+		_playerInfo = new PlayerInfo();
+	}
+	~Card();
+
+	void SettingCard(vector<Card*>*);							//»çºó´Ô
+	void SortingCard(vector<Card*>*, map<int, PlayerInfo*>*);	//µ¿¹ü´Ô
+	void ShowPlayerlist(vector<Card*>*, map<int, PlayerInfo*>*);//ÅÂÇü´Ô
+	void RankedPlayer(vector<Card*>*, map<int, PlayerInfo*>*);	//È¿¼·´Ô
+};
+
