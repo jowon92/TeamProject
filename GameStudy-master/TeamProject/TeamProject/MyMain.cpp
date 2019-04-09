@@ -17,6 +17,7 @@ int aa = 0;
 
 void main()
 {
+	//알만한거
 	PlayerInfo* _playerInfo = new PlayerInfo;
 	Card* _card = new Card;
 	map<int, PlayerInfo*> m_playerInfo;
