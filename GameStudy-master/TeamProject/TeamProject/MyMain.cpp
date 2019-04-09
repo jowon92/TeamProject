@@ -17,7 +17,7 @@ int aa = 0;
 
 void main()
 {//이거맞는거 같은데!!
-	//진짜 이거맞음
+	//진짜 이거맞음ssss
 	PlayerInfo* _playerInfo = new PlayerInfo;
 	Card* _card = new Card;
 	map<int, PlayerInfo*> m_playerInfo;
