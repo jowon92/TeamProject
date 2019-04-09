@@ -12,13 +12,11 @@
 //			 2. 카드를 섞는다.
 //			 3. 플레이어 리스트/보유 카드목록 출력한다.
 //			 4. 카드를 이용해서 점수를 더하고 등수를 출력한다.
-//ABCDEFGHHJKKUUT
-int aa = 0;
+
+// 깃허브 마스터함
 
 void main()
-{//이거맞는거 같은데!!
-	//진짜 이거맞음ssss
-	//진짜 이거맞음sdsdsd
+{
 	PlayerInfo* _playerInfo = new PlayerInfo;
 	Card* _card = new Card;
 	map<int, PlayerInfo*> m_playerInfo;
